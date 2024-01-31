@@ -17,7 +17,7 @@ bool repeat = true;
 
 while (repeat)
 {
-    
+    Console.Clear();
     Console.WriteLine("-----------------------------");
     Console.WriteLine("1 -- Adicionar Veiculo");
     Console.WriteLine("2 -- Remover Veiculo");
@@ -46,4 +46,8 @@ while (repeat)
             Console.WriteLine("Insira uma opção válida!");
             break;
     }
+
+    Console.WriteLine("");
+    Console.WriteLine("Pressione qualquer tecla para continuar");
+    Console.ReadLine();
 }
